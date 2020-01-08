@@ -19,6 +19,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  scoped_model: ^0.3.0
+  path_provider: ^0.4.0
+  intl: ^0.15.8
+  responsive_container:
+  firebase_auth: any
+  firebase_core: 
+  firebase_analytics: ^1.0.4
+  google_sign_in: ^4.0.2
+  firebase_storage: ^2.1.0+1
+  firebase_database:
+  cloud_firestore:
+  fluttertoast:
+  
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -27,10 +40,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  image_picker:
 
 
 # For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+# following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
@@ -41,15 +55,18 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - assets/image1.png
+    - assets/loginpic.jpg
   #  - images/a_dot_ham.jpeg
 
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # https://flutter.io/assets-and-images/#resolution-aware.
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  # https://flutter.io/assets-and-images/#from-packages
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -69,4 +86,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.io/custom-fonts/#from-packages
